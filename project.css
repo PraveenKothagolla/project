@@ -1,0 +1,93 @@
+.nav,.top{
+    display:flex;
+    column-gap: 50px;
+}
+a{
+    color: grey;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav{
+    position:absolute;
+    right:80px;
+    top:25px;
+}
+.top{
+    position:relative;
+    left:3px;
+    
+
+}
+.wp{
+    postion:relative;
+    top:2px;
+}
+.images{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 30px;
+    column-gap: 30px;
+    margin-top: 10px;
+}
+.item1{
+    grid-row-start: span 2;
+}
+.helmet{
+    grid-row-start:3;
+}
+/* .kit{
+ grid-column-end: 3;
+} */
+.shoes{
+    grid-row-start: 3;
+}
+.bs{
+    grid-row-start: 3;
+}
+.text{
+    height:100px;
+    width:100px;
+    font-size: 80px;
+    position: relative;
+    left:650px;
+   
+}
+.tt{
+    margin-top: 10px;
+}
+.duffle,.wood,.grip,.flag,.batblue,.batred,.batwhite,.batblack,.spring,.ball,.plastic,.hexa,.flag2,.bat2,.bat3,.bat4{
+    border: 2px solid white;
+    height: 500px;
+    width:400px;
+    padding-left: 10px;
+}
+.flex,.flex1,.flex3,.flex4,.flex5{
+    display: flex;
+    gap: 100px;
+}
+.video{
+    margin-left: 150px;
+}
+.text1{
+  
+    font-size: 80px;
+    position: relative;
+    left:650px;
+}
+.flexs{
+    margin-left: 150px;
+    gap:300px
+}
+.footer{
+    display: flex;
+    margin-top: 10px;
+    margin-left:100px;
+    gap: 10px;
+}
+.contact,.navigation,.media,.policies{
+   
+width:400px;
+}
+body{
+    overflow-x: hidden;
+}
